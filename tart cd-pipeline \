@@ -1,0 +1,228 @@
+[33mcommit 525bb285c9fad70571251ae1f684f9634faa7d0b[m[33m ([m[1;36mHEAD -> [m[1;32mcd-pipeline[m[33m, [m[1;31morigin/cd-pipeline[m[33m)[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:33:59 2024 -0400
+
+    added deploy taskand deplyment file changed
+
+[33mcommit 51360efccb78b63f573ef2560c402f731c04f8cc[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:32:12 2024 -0400
+
+    added deploy task
+
+[33mcommit 1f079e0e85f6c9a0143d910ce9479722f4a0bc3c[m
+Merge: 7f19f5e 502f67a
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:20:57 2024 -0400
+
+    Merge branch 'cd-pipeline' of https://github.com/la678/devops-capstone-project into cd-pipeline
+
+[33mcommit 7f19f5e89e9a8e1289f889e965d338626530a0d9[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:20:19 2024 -0400
+
+    corrected test_routes.py errors
+
+[33mcommit 502f67aa5bea790091a231786a0ab2571e5f8aee[m
+Merge: a26cde5 f27cf19
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Thu Mar 14 16:13:05 2024 -0500
+
+    Merge branch 'main' into cd-pipeline
+
+[33mcommit a26cde521e4d987d47ca875fdc5d3a31a5c9781c[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:11:56 2024 -0400
+
+    added build task
+
+[33mcommit f27cf198ea79c309e5f55bdbf0c9ef9a403744b2[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 80db981 399b373
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 17:03:57 2024 -0400
+
+    added test piepeline task
+
+[33mcommit 80db98167b3c52579d22f7b412d549004ceaf599[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:34:16 2024 -0400
+
+    added nose task
+
+[33mcommit 603b5669e456682ae9a449cc4f54fb1ce0d1303b[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:42:18 2024 -0400
+
+    added test pipeline task
+
+[33mcommit 399b3738491d067bcea215bb391069afccea1854[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:34:16 2024 -0400
+
+    added nose task
+
+[33mcommit 9aff0e4a44f16378e787b465478ee4c778718e77[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:30:03 2024 -0400
+
+    added nose task
+
+[33mcommit cc6c22b38447368ab38785a549680a041e0dc42b[m
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Thu Mar 14 15:12:09 2024 -0500
+
+    Update test_routes.py to correct lint errors
+
+[33mcommit 841b1d5076ffe69e4b07f4adf188d2f3356b772b[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:08:41 2024 -0400
+
+    made some corrections for lint in test_routes final
+
+[33mcommit d8a76f6535205af64094279b8530652f607f990d[m
+Merge: 2eb0a12 df60d58
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Thu Mar 14 15:06:43 2024 -0500
+
+    Merge pull request #16 from la678/cd-pipeline
+    
+    made some corrections for lint in test_routes
+
+[33mcommit df60d5830b503aa33327ccf323ab038260c9c0a3[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 16:05:16 2024 -0400
+
+    made some corrections for lint in test_routes
+
+[33mcommit 2eb0a12e40a93af4e8eaf9cff9b43da123a6b870[m
+Merge: bb705e7 353d1a9
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Thu Mar 14 14:28:09 2024 -0500
+
+    Merge pull request #15 from la678/add-kubernetes
+    
+    Added Kubernetes support
+
+[33mcommit 353d1a981abeec87cd36dba168b65a0d93a367ff[m[33m ([m[1;31morigin/add-kubernetes[m[33m)[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Thu Mar 14 15:26:44 2024 -0400
+
+    Added Kubernetes support
+
+[33mcommit bb705e784b9d28c0306b8712ad207baccedab080[m[33m ([m[1;31morigin/add-docker[m[33m)[m
+Author: la678 <lanhuri@ttu.edu>
+Date:   Wed Mar 13 14:04:13 2024 -0400
+
+    created docker file
+
+[33mcommit f973f336e88bf6bf69b9c5d088ac04c641f61f70[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 23:39:31 2024 -0400
+
+    Added CORS headers
+
+[33mcommit 25730e62a5353c9ff2054469ccdbfecd247aca0d[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 23:33:13 2024 -0400
+
+    Added security headers
+
+[33mcommit dfbb44d7c8d020c19f3db5d1195200cdd63e1353[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 19:34:18 2024 -0400
+
+    corrected lint errors in routes.py
+
+[33mcommit 0ee4a979ce3169aaf5b1c3a98fa1bc2e74749928[m
+Merge: 0694100 c6741bf
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 19:16:12 2024 -0400
+
+    Merge branch 'main' of https://github.com/la678/devops-capstone-project
+    commiting the changes made in the remote repo
+
+[33mcommit 0694100ba398be047a398a51825355c8f05a77d5[m[33m ([m[1;31morigin/add-ci-build[m[33m)[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 19:07:24 2024 -0400
+
+    checked lint errors
+
+[33mcommit c6741bf518a715e23315f7a5a2d0cf20cb0a5337[m
+Merge: 0d93e7e cdc1830
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Tue Mar 12 17:59:29 2024 -0500
+
+    Merge pull request #13 from la678/add-ci-build
+    
+    completed ci build
+
+[33mcommit cdc1830663c4f9c7c86caedf2747c7779a44d846[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 18:57:41 2024 -0400
+
+    completed ci build
+
+[33mcommit 0d93e7e20a99ba141656c7cd1e050964275d6276[m
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Tue Mar 12 17:51:10 2024 -0500
+
+    Create ci-build.yaml
+
+[33mcommit ce6581e94ca7c05017e0c7d821f1c30a0dcd8106[m
+Merge: bfbfbb7 b9abd39
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Mon Mar 11 23:30:40 2024 -0500
+
+    Merge pull request #10 from la678/dev-setup
+    
+    all the user stories are done
+
+[33mcommit b9abd396c711acf6db903a6727227c9f7c916c5e[m[33m ([m[1;31morigin/dev-setup[m[33m)[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Tue Mar 12 00:28:30 2024 -0400
+
+    all the user stories are done
+
+[33mcommit bfbfbb7525433afe100f4c4cab4ffa28c940cdea[m
+Merge: e8e233c 1cce047
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Mon Mar 11 22:54:07 2024 -0500
+
+    Merge pull request #9 from la678/dev-setup
+    
+    implemented list and read stories
+
+[33mcommit 1cce0472e801138e8a0d2966a8490da388997617[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Mon Mar 11 23:52:54 2024 -0400
+
+    implemented list and read stories
+
+[33mcommit e8e233cd4868bbcb41938d876cde73780ce1cc06[m
+Merge: 6e08a33 1557a0e
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Mon Mar 11 20:27:06 2024 -0500
+
+    Merge pull request #8 from la678/dev-setup
+    
+    added nose arguments
+
+[33mcommit 1557a0e4dfa46036ac32673f6689c44e4c2516b0[m
+Author: la678 <lanchuri@ttu.edu>
+Date:   Mon Mar 11 21:24:07 2024 -0400
+
+    added nose arguments
+
+[33mcommit 6e08a338f0f962adc11802d8c30e32c1ee77cdee[m
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Mon Mar 11 10:47:09 2024 -0500
+
+    Create ISSUE_TEMPLATES
+    
+    Create a folder and file for issue_template
+
+[33mcommit 44b06ab39eb77bf1f05de4c6c4d95ed2d16a5e55[m
+Author: la678 <157066721+la678@users.noreply.github.com>
+Date:   Mon Mar 11 10:15:31 2024 -0500
+
+    Initial commit

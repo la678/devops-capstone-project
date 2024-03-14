@@ -62,7 +62,7 @@ spec:
       - name: database_uri
         value: sqlite:///test.db
       - name: args
-        value: ["-v", "--with-spec", "--spec-color"]
+        value: "-v --with-spec --spec-color"
       runAfter:
         - clone
 
@@ -80,6 +80,13 @@ spec:
       runAfter:
         - lint
         - tests
+      volumeMounts:
+        - name: registry-credentials
+          mountPath: /etc/docker/creds
+      volumes:
+        - name: registry-credentials
+          secret:
+            secretName: ibm-cr-secret
 
     - name: deploy
       workspaces:

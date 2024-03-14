@@ -136,9 +136,10 @@ class TestAccountService(TestCase):
         self._create_accounts(5)
         # Check the response status code
         response = self.client.get(BASE_URL)
-
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-        self.assertNotEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+        self.assertNotEqual(
+            response.status_code, status.HTTP_404_NOT_FOUND
+        )
         data = response.get_json()
         self.assertEqual(len(data), 5)
 

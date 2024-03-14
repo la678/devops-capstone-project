@@ -65,6 +65,7 @@ spec:
         value: ["-v", "--with-spec", "--spec-color"]
       runAfter:
         - clone
+
     
     - name: build
       workspaces:
@@ -79,3 +80,4 @@ spec:
       runAfter:
         - lint
         - tests
+

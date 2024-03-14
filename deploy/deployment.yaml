@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
       - name: ibm-cr-secret
       containers:
-      - image: us.icr.io/lahari/accounts:1
+      - image: IMAGE_NAME_HERE
         name: accounts
         resources: {}
         env:
